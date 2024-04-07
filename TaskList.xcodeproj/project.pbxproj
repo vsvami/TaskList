@@ -12,6 +12,9 @@
 		649DA9772BBED9E700E974AC /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649DA9762BBED9E700E974AC /* TaskListViewController.swift */; };
 		649DA97C2BBED9E800E974AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 649DA97B2BBED9E800E974AC /* Assets.xcassets */; };
 		649DA97F2BBED9E800E974AC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 649DA97E2BBED9E800E974AC /* Base */; };
+		649DA9872BBEE73900E974AC /* NewTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649DA9862BBEE73900E974AC /* NewTaskViewController.swift */; };
+		649DA9892BC2F31200E974AC /* FilledButtonFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649DA9882BC2F31200E974AC /* FilledButtonFactory.swift */; };
+		649DA98C2BC2F75600E974AC /* TaskList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 649DA98A2BC2F75600E974AC /* TaskList.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		649DA97B2BBED9E800E974AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		649DA97E2BBED9E800E974AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		649DA9802BBED9E800E974AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		649DA9862BBEE73900E974AC /* NewTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskViewController.swift; sourceTree = "<group>"; };
+		649DA9882BC2F31200E974AC /* FilledButtonFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilledButtonFactory.swift; sourceTree = "<group>"; };
+		649DA98B2BC2F75600E974AC /* TaskList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskList.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				649DA9722BBED9E700E974AC /* AppDelegate.swift */,
 				649DA9742BBED9E700E974AC /* SceneDelegate.swift */,
 				649DA9762BBED9E700E974AC /* TaskListViewController.swift */,
+				649DA9862BBEE73900E974AC /* NewTaskViewController.swift */,
+				649DA9882BC2F31200E974AC /* FilledButtonFactory.swift */,
+				649DA98A2BC2F75600E974AC /* TaskList.xcdatamodeld */,
 				649DA97B2BBED9E800E974AC /* Assets.xcassets */,
 				649DA97D2BBED9E800E974AC /* LaunchScreen.storyboard */,
 				649DA9802BBED9E800E974AC /* Info.plist */,
@@ -134,8 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				649DA98C2BC2F75600E974AC /* TaskList.xcdatamodeld in Sources */,
 				649DA9772BBED9E700E974AC /* TaskListViewController.swift in Sources */,
 				649DA9732BBED9E700E974AC /* AppDelegate.swift in Sources */,
+				649DA9872BBEE73900E974AC /* NewTaskViewController.swift in Sources */,
+				649DA9892BC2F31200E974AC /* FilledButtonFactory.swift in Sources */,
 				649DA9752BBED9E700E974AC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +296,7 @@
 				INFOPLIST_FILE = TaskList/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -314,6 +327,7 @@
 				INFOPLIST_FILE = TaskList/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -355,6 +369,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		649DA98A2BC2F75600E974AC /* TaskList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				649DA98B2BC2F75600E974AC /* TaskList.xcdatamodel */,
+			);
+			currentVersion = 649DA98B2BC2F75600E974AC /* TaskList.xcdatamodel */;
+			path = TaskList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 649DA9672BBED9E700E974AC /* Project object */;
 }
