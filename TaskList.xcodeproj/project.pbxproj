@@ -14,6 +14,7 @@
 		649DA97F2BBED9E800E974AC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 649DA97E2BBED9E800E974AC /* Base */; };
 		649DA98C2BC2F75600E974AC /* TaskList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 649DA98A2BC2F75600E974AC /* TaskList.xcdatamodeld */; };
 		649DA9942BC3061300E974AC /* AlertControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649DA9932BC3061300E974AC /* AlertControllerFactory.swift */; };
+		649DA9962BC3072A00E974AC /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649DA9952BC3072A00E974AC /* StorageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		649DA9802BBED9E800E974AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		649DA98B2BC2F75600E974AC /* TaskList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskList.xcdatamodel; sourceTree = "<group>"; };
 		649DA9932BC3061300E974AC /* AlertControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertControllerFactory.swift; sourceTree = "<group>"; };
+		649DA9952BC3072A00E974AC /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		649DA9902BC305A300E974AC /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				649DA9952BC3072A00E974AC /* StorageManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				649DA98C2BC2F75600E974AC /* TaskList.xcdatamodeld in Sources */,
 				649DA9942BC3061300E974AC /* AlertControllerFactory.swift in Sources */,
 				649DA9772BBED9E700E974AC /* TaskListViewController.swift in Sources */,
+				649DA9962BC3072A00E974AC /* StorageManager.swift in Sources */,
 				649DA9732BBED9E700E974AC /* AppDelegate.swift in Sources */,
 				649DA9752BBED9E700E974AC /* SceneDelegate.swift in Sources */,
 			);
